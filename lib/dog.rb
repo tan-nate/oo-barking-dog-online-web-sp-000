@@ -1,5 +1,3 @@
-require 'pry'
-
 class Dog
   def name=(new_name)
     @name = new_name
@@ -13,5 +11,3 @@ class Dog
     puts "woof!"
   end
 end
-
-binding.pry
